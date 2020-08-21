@@ -32,4 +32,3 @@ jobs:
     - name: Deploying Using Surge
       run: surge ./ bootcamp-2020-samplee.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
 
-{{
